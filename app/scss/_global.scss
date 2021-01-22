@@ -34,7 +34,7 @@ body {
   overflow-x: hidden;
   position: relative;
   color: #ffffff;
-  @extend %ubuntu-light;
+  // @extend %ubuntu-light;
   font-size: 17px;
   line-height: 26px;
 }
@@ -52,4 +52,23 @@ body {
   background-position: top center;
   background-size: cover;
   position: relative;
+}
+
+.title {
+  // @extend %sf-regular;
+  font-size: 44px;
+  line-height: 53px;
+  padding-left: 25px;
+  padding-top: 76px;
+  margin-bottom: 55px;
+}
+
+.scroll__btn {
+  padding: 13px 0 30px;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
 }
