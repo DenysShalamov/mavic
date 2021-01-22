@@ -34,7 +34,7 @@ body {
   overflow-x: hidden;
   position: relative;
   color: #ffffff;
-  // @extend %ubuntu-light;
+  @extend %ubuntu-light;
   font-size: 17px;
   line-height: 26px;
 }
@@ -55,7 +55,7 @@ body {
 }
 
 .title {
-  // @extend %sf-regular;
+  @extend %sf-regular;
   font-size: 44px;
   line-height: 53px;
   padding-left: 25px;
