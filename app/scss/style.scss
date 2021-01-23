@@ -99,5 +99,24 @@
   }
 }
 
+.products {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+  }
+  &__text {
+    max-width: 440px;
+    p{
+      margin-bottom: 30px;
+    }
+  }
+
+  &__slider {
+    max-width: 560px;
+  }
+
+}
+
 @import "media";
 
