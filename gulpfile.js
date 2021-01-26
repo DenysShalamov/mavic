@@ -41,7 +41,8 @@ function scss() {
 function css() {
   return src([
     'node_modules/normalize.css/normalize.css',
-    'node_modules/slick-carousel/slick/slick.css'
+    'node_modules/slick-carousel/slick/slick.css',
+    'node_modules/fullpage.js/dist/fullpage.css'
     
     
   ])
@@ -64,7 +65,9 @@ function script() {
 function js() {
   return src([
     'node_modules/jquery/dist/jquery.js',
-    'node_modules/slick-carousel/slick/slick.js'
+    'node_modules/slick-carousel/slick/slick.js',
+    'node_modules/fullpage.js/dist/fullpage.js',
+    'node_modules/fullpage.js/vendors/scrolloverflow.js',
     
   ])
     .pipe(concat('libs.min.js'))

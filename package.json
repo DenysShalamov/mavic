@@ -19,6 +19,7 @@
     "gulp-sass": "^4.1.0"
   },
   "dependencies": {
+    "fullpage.js": "^3.0.9",
     "gulp-uglify": "^3.0.2",
     "gulp-uglify-es": "^2.0.0",
     "jquery": "^3.5.1",
